@@ -12,9 +12,12 @@ body {
 .hero {
   text-align: center;
   background-color: #eaf6ff; /* soft light blue background */
+  background: linear-gradient(135deg, #eaf6ff, #fff4df);
+  padding: 40px 20px;
 }
 
 .hero img {
+  width: 250px;
   border-radius: 50%;
   border: solid 4px #16213e;
   margin-bottom: 20px;
@@ -23,11 +26,13 @@ body {
 .hero h1 {
   margin: 20px 0 10px;
   color: #16213e;
+  font-size: 3.5em;
 }
 
 .hero p {
   margin: 10px 0 20px;
   color: #555;
+  font-size: 1.1rem;
 }
 
 .hero button {
@@ -36,6 +41,8 @@ body {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  padding: 14px 28px;
+  font-size: 1.5em;
 }
 
 .hero button:hover {
@@ -51,6 +58,10 @@ body {
   max-width: 800px;
 }
 
+.description p {
+  font-size: 1.1rem;
+}
+
 /* How It Works Section */
 .how-it-works {
   padding: 40px 20px;
@@ -61,7 +72,8 @@ body {
 .how-it-works h2 {
   margin-top: 0;
   margin-bottom: 20px;
-  color: #0f3460
+  color: #0f3460;
+  font-size: 1.75rem;
 }
 
 .how-it-works ol {
@@ -94,6 +106,7 @@ strong {
 .features h2 {
   margin-bottom: 20px;
   color: #1a1a2e;
+  font-size: 1.75rem;
 }
 
 .features ul {
